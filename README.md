@@ -1,26 +1,27 @@
-# :cards: [Deck of Cards](http://karenfreemansmith.github.io/carddeck)
+# :fish: [Go Fish](http://karenfreemansmith.github.io/gofish)
 ![project screenshot](/img/screenshot.jpg)
 
-__Version 2: August 15, 2016__
-## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
+__Version 1: September 15, 2016__
+## by [Karen Freeman-Smith](http://karenfreemansmith.github.io) and [Nhat Hoang](https://github.com/hoangnh092185)
 
 ### Description
-__*Webpage that uses nested forEach loops to build a deck of cards.*__
-Version 2 adds images for the cards to replace text.
+__*Java game of Go Fish.*__
 
-### Setup/Installation
-*None required. Clone or download and extract to use*
+## Setup/Installation
+* Clone directory
+* Type 'gradle run' inside the directory
+* Navigate to 'http://localhost:4567'
 
-### Support & Contact
-For questions or comments, please __email [Karen](karenfreemansmith@gmail.com)__
+## Support & Contact
+For questions, concerns, or suggestions please email karenfreemansmith@gmail.com
 
-### Known Issues
-* none
+## Known Issues
+* N/A
 
-### Technologies Used
-###### HTML, CSS, Bootstrap, JavaScript, jQuery
+## Technologies Used
+Java, JUnit, Spark, Gradle
 
-### Legal
+## Legal
 *Licensed under the GNU General Public License v3.0*
 
-Copyright (c) 2016 **_Karen Freeman-Smith_**
+Copyright &copy; 2016 Copyright _Karen Freeman-Smith and Nhat Hoang_ All Rights Reserved.
