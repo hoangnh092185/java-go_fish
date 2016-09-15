@@ -8,7 +8,6 @@ public class DeckTest {
     Deck newDeck = new Deck();
     assertEquals(true, newDeck instanceof Deck);
   }
-
   @Test
   public void Deck_allCardsPresent_52() {
     Deck newDeck = new Deck();

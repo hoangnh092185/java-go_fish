@@ -2,4 +2,18 @@
 
 <p>Form for up to 4 players, computer player?</p>
 
+<ul>
+  #foreach ($player in $players)
+  <li>$player.getPlayer()</li>
+  #end
+</ul>
+
+<form class="form-group" action="/" method="post">
+  <div class="">
+    <label for="name">Input player name</label>
+    <input id="name" type="text" name="name" value="">
+  </div>
+  <button type="submit" class="btn" name="button">Submit</button>
+</form>
+
 <a href="/game">Play Game</a>
