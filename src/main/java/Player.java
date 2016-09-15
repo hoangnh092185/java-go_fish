@@ -15,6 +15,17 @@ public class Player {
     mBooks = new ArrayList<Book>();
     instances.add(this);
   }
+  public void addCardToHand(Card card) {
+    mHand.add(card);
+  }
+
+  public List<Card>  startHand(){
+    Deck newDeck = new Deck();
+    for(int i=0; i<7; i++){
+      addCardToHand(newDeck.getCard());
+    }
+    return mHand;
+  }
   public String getPlayer(){
     return mPlayerName;
   }

@@ -13,4 +13,9 @@ public class PlayerTest {
   public void GetPlayerName_returnCorrectName_Nhat(){
     assertEquals("Nhat", player1.getPlayer());
   }
+  @Test
+  public void HandsOfCard_ReturnCorrectNumberOfCards_7(){
+    // Player newHand = new Player();
+    assertEquals(7, player1.startHand().size());
+  }
 }
